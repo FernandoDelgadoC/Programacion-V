@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "583237177609",
+    "project_id": "symphonie-f5065",
+    "storage_bucket": "symphonie-f5065.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583237177609:android:a69501d56443052fe503d8",
+        "android_client_info": {
+          "package_name": "com.fernando_delgado.symphonie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583237177609-6gi7s7j8omhjkca5t8susnig6nlv5vrc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMrjJPws1zfvq1R_lEzl4Skco9vOn2dh8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "583237177609-6gi7s7j8omhjkca5t8susnig6nlv5vrc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Symphonie</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">password</string>
+    <string name="Password">Password</string>
+    <string name="registro">Registro</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="default_web_client_id">583237177609-6gi7s7j8omhjkca5t8susnig6nlv5vrc.apps.googleusercontent.com</string>
+    <string name="google">Google</string>
+</resources>
