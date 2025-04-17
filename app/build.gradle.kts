@@ -46,6 +46,7 @@ dependencies {
 
     // Google Sign-In (esto es lo que te faltaba para que funcione GoogleSignIn)
     implementation(libs.play.services.auth)
+    implementation(libs.androidx.recyclerview)  // Usa la versión gestionada en libs.versions.toml
 
     // Credential Manager (login moderno)
     implementation(libs.androidx.credentials)
@@ -58,6 +59,7 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation(libs.firebase.firestore)
 
     // Testing
     testImplementation(libs.junit)

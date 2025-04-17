@@ -1,27 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/main_scroll"
     android:layout_width="match_parent"
-    android:orientation="vertical"
-    android:layout_gravity="center"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/user_details"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="16dp">
 
-    <Button
-        android:id="@+id/logout"
-        android:text="Cerrar Sesion"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-</LinearLayout>
+        <!-- Mensaje de Bienvenida -->
+        <TextView
+            android:id="@+id/user_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¡Bienvenido, Usuario!"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="24dp"
+            android:gravity="center" />
+
+        <!-- Botón de Registro de Asistencia -->
+        <Button
+            android:id="@+id/registro_asistencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp"
+            android:text="Registro de Asistencia"
+            android:textSize="16sp" />
+
+        <!-- Botón de Vista de Horarios -->
+        <Button
+            android:id="@+id/vista_horarios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vista de Horarios"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Botón de Solicitudes de Permisos -->
+        <Button
+            android:id="@+id/solicitudes_permisos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Solicitudes de Permisos"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Botón de Configuración de Usuario -->
+        <Button
+            android:id="@+id/configuracion_usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Configuración de Usuario"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Botón de Registros de Usuarios (Solo Admin) -->
+        <Button
+            android:id="@+id/registros_usuarios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registros de Usuarios"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Botón de Reportes (Solo Admin) -->
+        <Button
+            android:id="@+id/reportes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reportes"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Botón de Cerrar Sesión -->
+        <Button
+            android:id="@+id/logout"
+            android:text="Cerrar Sesión"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:padding="12dp" />
+
+    </LinearLayout>
+</ScrollView>

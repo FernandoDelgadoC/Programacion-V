@@ -1,4 +1,4 @@
-package com.fernando_delgado.symphonie;
+package com.fernando_delgado.symphonie.Login;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -13,9 +13,10 @@ import android.widget.Toast;
 
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.fernando_delgado.symphonie.MainActivity;
+import com.fernando_delgado.symphonie.R;
 import com.google.android.gms.auth.api.signin.*;
 import com.google.android.gms.common.api.ApiException;
 import com.google.android.gms.tasks.Task;
