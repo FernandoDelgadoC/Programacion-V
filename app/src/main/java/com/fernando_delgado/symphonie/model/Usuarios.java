@@ -1,4 +1,4 @@
-package com.fernando_delgado.symphonie.Funciones;
+package com.fernando_delgado.symphonie.model;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;

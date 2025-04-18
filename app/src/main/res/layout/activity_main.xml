@@ -55,15 +55,7 @@
             android:padding="12dp"
             android:layout_marginBottom="16dp" />
 
-        <!-- Botón de Configuración de Usuario -->
-        <Button
-            android:id="@+id/configuracion_usuario"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Configuración de Usuario"
-            android:textSize="16sp"
-            android:padding="12dp"
-            android:layout_marginBottom="24dp" />
+
 
         <!-- Botón de Registros de Usuarios (Solo Admin) -->
         <Button
@@ -81,6 +73,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Reportes"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Botón de Configuración de Usuario -->
+        <Button
+            android:id="@+id/configuracion_usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Configuración de Usuario"
             android:textSize="16sp"
             android:padding="12dp"
             android:layout_marginBottom="24dp" />

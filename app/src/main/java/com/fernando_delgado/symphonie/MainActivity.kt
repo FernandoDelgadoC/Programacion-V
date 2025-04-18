@@ -6,8 +6,9 @@ import android.view.View
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import com.fernando_delgado.symphonie.Funciones.Usuarios
+import com.fernando_delgado.symphonie.model.Usuarios
 import com.fernando_delgado.symphonie.Funciones.asistencias
+import com.fernando_delgado.symphonie.Funciones.horario
 import com.fernando_delgado.symphonie.Login.Login
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
@@ -95,6 +96,13 @@ class MainActivity : AppCompatActivity() {
                 .addOnFailureListener {
                     userDetails.text = "¡Bienvenido!"
                 }
+        }
+
+        val btnVistaHorarios = findViewById<Button>(R.id.vista_horarios)
+
+        // Configura el listener para redirigir a la actividad de horarios
+        btnVistaHorarios.setOnClickListener {
+            startActivity(Intent(this, horario::class.java))
         }
 
         // Botón de asistencia
